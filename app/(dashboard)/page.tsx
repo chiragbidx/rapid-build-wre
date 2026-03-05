@@ -97,14 +97,6 @@ export default function Page() {
           Questions? <a className="underline" href="mailto:hi@chirag.co">hi@chirag.co</a>
         </span>
       </footer>
-      <style jsx>{`
-        .gradient-text {
-          background: linear-gradient(90deg, #1a73e8 25%, #54e0c7 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-        }
-      `}</style>
     </main>
   );
 }
